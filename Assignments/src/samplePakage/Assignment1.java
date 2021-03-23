@@ -12,8 +12,11 @@ public class Assignment1 {
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 		
-System.setProperty("webdriver.gecko.driver","G:\\Workspace\\learnSelenium1\\lib\\Gikodriver\\geckodriver.exe");
 		
+		//set system property
+		System.setProperty("webdriver.gecko.driver","G:\\Workspace\\learnSelenium1\\lib\\Gikodriver\\geckodriver.exe");
+		
+		//invoke firefox driver
 		WebDriver driver = new FirefoxDriver();
         
 		driver.manage().window().maximize();
